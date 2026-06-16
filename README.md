@@ -58,15 +58,11 @@ frontend:
 ```
 nuit-mediterraneenne/
 ├── themes/
-│   └── nuit_mediterraneenne/
-│       └── nuit_mediterraneenne.yaml
-│   └── nuit_mediterraneenne_silver/
-│       └── nuit_mediterraneenne_silver.yaml
-│   └── nuit_mediterraneenne_halo/
-│       └── nuit_mediterraneenne_halo.yaml
-│       └── background.png
-│   └── nuit_mediterraneenne_dark/
-│       └── nuit_mediterraneenne_dark.yaml
+│   └── nuit_mediterraneenne.yaml
+│   └── nuit_mediterraneenne_silver.yaml
+│   └── nuit_mediterraneenne_halo.yaml
+│   └── background.png
+│   └── nuit_mediterraneenne_dark.yaml
 ├── www/
 │   └── nuit_mediterraneenne_halo/
 │       └── background.png
