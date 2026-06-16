@@ -65,6 +65,7 @@ nuit-mediterraneenne/
 │   └── nuit_mediterraneenne_dark.yaml
 ├── hacs.json
 ├── README.md
+├── LICENSE
 ```
 
 ---
