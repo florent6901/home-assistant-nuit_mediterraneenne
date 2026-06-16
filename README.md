@@ -11,19 +11,23 @@
 
 - **Nuit Méditerranéenne**
 
-![Apercu](preview.png)
+![Apercu](<img width="1018" height="895" alt="preview" src="https://github.com/user-attachments/assets/cb60fe8d-43b3-40a8-b0b9-1754af1bbba9" />)
+
 
 - **Nuit Méditerranéenne Dark**
 
-![Apercu_Dark](preview_dark.png)
+![Apercu_Dark](<img width="895" height="893" alt="preview_dark" src="https://github.com/user-attachments/assets/addc4973-02f0-4359-aed1-47bef7a78b8a" />
+)
 
 - **Nuit Méditerranéenne Halo**
 
-![Apercu_Halo](preview_halo.png)
+![Apercu_Halo](<img width="901" height="894" alt="preview_halo" src="https://github.com/user-attachments/assets/79498c86-ef4b-4203-9b3d-afa48f28668b" />
+)
 
 - **Nuit Méditerranéenne Sylver**
 
-![Apercu_Sylver](preview_sylver.png)
+![Apercu_Sylver](<img width="900" height="891" alt="preview_sylver" src="https://github.com/user-attachments/assets/725abc0f-cd65-4b02-974e-f7b1bdbcb3a1" />
+)
 
 ---
 ## 📦 Installation via HACS
@@ -61,17 +65,10 @@ nuit-mediterraneenne/
 │   └── nuit_mediterraneenne.yaml
 │   └── nuit_mediterraneenne_silver.yaml
 │   └── nuit_mediterraneenne_halo.yaml
-│   └── background.png
+│   └── nuit_mediterraneenne_background.png
 │   └── nuit_mediterraneenne_dark.yaml
-├── www/
-│   └── nuit_mediterraneenne_halo/
-│       └── background.png
 ├── hacs.json
 ├── README.md
-└── preview.png
-└── preview_dark.png
-└── preview_halo.png
-└── preview_sylver.png
 ```
 
 ---
