@@ -1,68 +1,68 @@
 # ═══════════════════════════════════════════════════
-#  Nuit Méditerranéenne Dark — Thème Home Assistant
-#  Fichier à placer dans : config/themes/nuit_mediterraneenne_dark
+#  Nuit Méditerranéenne — Thème Home Assistant
+#  Fichier à placer dans : config/themes/nuit_mediterraneenne
 # ═══════════════════════════════════════════════════
 
-Nuit Méditerranéenne Dark:
+Nuit Mediterraneenne:
 
   # ── Fonds ──────────────────────────────────────
-  primary-background-color: "#0B1120"
-  secondary-background-color: "#151F30"
-  card-background-color: "#151F30"
-  lovelace-background: "#0B1120"
-  background-color: "#0B1120"
+  primary-background-color: "#0D1B2A"
+  secondary-background-color: "#1A2A3A"
+  card-background-color: "#1A2A3A"
+  lovelace-background: "#0D1B2A"
+  background-color: "#0D1B2A"
 
   # ── Textes ─────────────────────────────────────
-  primary-text-color: "#E8ECF0"
-  secondary-text-color: "#8E99A8"
-  disabled-text-color: "#4A5568"
-  text-primary-color: "#E8ECF0"
+  primary-text-color: "#F0F4F8"
+  secondary-text-color: "#94A3B8"
+  disabled-text-color: "#475569"
+  text-primary-color: "#F0F4F8"
 
-  # ── Couleurs principales  ───────
-  primary-color: "#4A7FA5"
-  accent-color: "#C0CDD8"
-  dark-primary-color: "#7A8FA0"
-  light-primary-color: "#D8E2EA"
+  # ── Couleurs principales ────────────────────────
+  primary-color: "#38BDF8"
+  accent-color: "#38BDF8"
+  dark-primary-color: "#0EA5E9"
+  light-primary-color: "#7DD3FC"
 
-  # ── Couleur clé OFF ────────────────────────────
-  disabled-color: "#E8ECF0"
+  # ── Couleur clé OFF (utilisée comme base icônes)
+  disabled-color: "#E8EDF2"
 
   # ── Barres de navigation & en-têtes ────────────
-  app-header-background-color: "#0B1120"
-  app-header-text-color: "#E8ECF0"
-  app-header-icon-color: "#E8ECF0"
+  app-header-background-color: "#0D1B2A"
+  app-header-text-color: "#F0F4F8"
+  app-header-icon-color: "#E8EDF2"
   header-height: 56px
 
   # ── Sidebar ────────────────────────────────────
-  sidebar-background-color: "#0B1120"
-  sidebar-text-color: "#8E99A8"
-  sidebar-selected-text-color: "#C0CDD8"
-  sidebar-selected-background-color: "rgba(192,205,216,0.1)"
-  sidebar-icon-color: "#8E99A8"
-  sidebar-selected-icon-color: "#C0CDD8"
+  sidebar-background-color: "#0D1B2A"
+  sidebar-text-color: "#94A3B8"
+  sidebar-selected-text-color: "#38BDF8"
+  sidebar-selected-background-color: "rgba(56,189,248,0.1)"
+  sidebar-icon-color: "#94A3B8"
+  sidebar-selected-icon-color: "#38BDF8"
 
   # ── Cartes ─────────────────────────────────────
-  ha-card-background: "#151F30"
-  ha-card-border-color: "rgba(192,205,216,0.12)"
+  ha-card-background: "#1A2A3A"
+  ha-card-border-color: "rgba(56,189,248,0.08)"
   ha-card-border-width: "1px"
   ha-card-border-radius: "18px"
-  ha-card-box-shadow: "0px 0px 3px 0px #05080f"
+  ha-card-box-shadow: "0px 0px 3px 0px #060f18"
 
   # ── Séparateurs ────────────────────────────────
-  divider-color: "rgba(192,205,216,0.1)"
+  divider-color: "rgba(56,189,248,0.1)"
 
   # ── États système ──────────────────────────────
   error-color: "#F87171"
   warning-color: "#FBBF24"
   success-color: "#34D399"
-  info-color: "#A8B8C8"
+  info-color: "#38BDF8"
 
-  # ── Icônes OFF / ON  ─────
+  # ── Icônes OFF / ON ───────
   state-icon-color: var(--disabled-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
 
-  # Fix HA 2023.01.25+
+  # Fix pour HA 2023.01.25 et supérieur
   state-cover-open-color: var(--primary-color)
   state-cover-opening-color: var(--primary-color)
   state-cover-closing-color: var(--primary-color)
@@ -71,7 +71,7 @@ Nuit Méditerranéenne Dark:
   state-remote-on-color: var(--primary-color)
   state-switch-on-color: var(--primary-color)
 
-  # ── Paper item icons ───────────────────────────
+  # ── Paper item icons (listes entities) ─────────
   paper-item-icon-color: var(--disabled-color)
   paper-item-icon-active-color: var(--primary-color)
 
@@ -83,7 +83,7 @@ Nuit Méditerranéenne Dark:
 
   # ── Switchs ────────────────────────────────────
   switch-checked-color: var(--primary-color)
-  switch-checked-track-color: "rgba(192,205,216,0.3)"
+  switch-checked-track-color: "rgba(56,189,248,0.3)"
   switch-unchecked-color: var(--primary-background-color)
   switch-unchecked-button-color: var(--disabled-color)
   switch-unchecked-track-color: var(--primary-background-color)
@@ -123,5 +123,5 @@ Nuit Méditerranéenne Dark:
   # ── Mode sombre forcé ──────────────────────────
   modes:
     dark:
-      primary-background-color: "#0B1120"
-      card-background-color: "#151F30"
+      primary-background-color: "#0D1B2A"
+      card-background-color: "#1A2A3A"

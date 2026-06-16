@@ -1,70 +1,63 @@
 # ═══════════════════════════════════════════════════
-#  Nuit Méditerranéenne — Thème Home Assistant
-#  Fichier à placer dans : config/themes/nuit_mediterraneenne_halo
-#  Background à placer dans : config/www/nuit_mediterraneenne_halo
+#  Nuit Méditerranéenne Dark — Thème Home Assistant
+#  Fichier à placer dans : config/themes/nuit_mediterraneenne_dark
 # ═══════════════════════════════════════════════════
 
-Nuit Méditerranéenne Halo:
+Nuit Mediterraneenne Dark:
 
-  # ── Fond ───────────────────────────────────────
-  background-image: "center / cover no-repeat url('https://github.com/florent6901/home-assistant-nuit_mediterraneenne/blob/main/themes/nuit_mediterraneenne_halo_background.png') fixed"
-  lovelace-background: var(--background-image)
-
-  # ── Fonds fallback ─────────────────────────────
-  primary-background-color: "#1C2E40"
-  secondary-background-color: "#243649"
-  card-background-color: "#1E3045"
-  background-color: "#1C2E40"
+  # ── Fonds ──────────────────────────────────────
+  primary-background-color: "#0B1120"
+  secondary-background-color: "#151F30"
+  card-background-color: "#151F30"
+  lovelace-background: "#0B1120"
+  background-color: "#0B1120"
 
   # ── Textes ─────────────────────────────────────
-  primary-text-color: "#F0F4F8"
-  secondary-text-color: "#94A3B8"
-  disabled-text-color: "#475569"
-  text-primary-color: "#F0F4F8"
+  primary-text-color: "#E8ECF0"
+  secondary-text-color: "#8E99A8"
+  disabled-text-color: "#4A5568"
+  text-primary-color: "#E8ECF0"
 
-  # ── Couleurs principales ────────────────────────
-  primary-color: "#38BDF8"
-  accent-color: "#38BDF8"
-  dark-primary-color: "#0EA5E9"
-  light-primary-color: "#7DD3FC"
+  # ── Couleurs principales  ───────
+  primary-color: "#4A7FA5"
+  accent-color: "#C0CDD8"
+  dark-primary-color: "#7A8FA0"
+  light-primary-color: "#D8E2EA"
 
   # ── Couleur clé OFF ────────────────────────────
-  disabled-color: "#E8EDF2"
+  disabled-color: "#E8ECF0"
 
   # ── Barres de navigation & en-têtes ────────────
-  app-header-background-color: "#152030"
-  app-header-text-color: "#F0F4F8"
-  app-header-icon-color: "#E8EDF2"
-  app-header-selection-bar-color: "#38BDF8"
+  app-header-background-color: "#0B1120"
+  app-header-text-color: "#E8ECF0"
+  app-header-icon-color: "#E8ECF0"
   header-height: 56px
 
   # ── Sidebar ────────────────────────────────────
-  sidebar-background-color: "#152030"
-  sidebar-text-color: "#94A3B8"
-  sidebar-selected-text-color: "#38BDF8"
-  sidebar-selected-background-color: "#1E3550"
-  sidebar-icon-color: "#94A3B8"
-  sidebar-selected-icon-color: "#38BDF8"
+  sidebar-background-color: "#0B1120"
+  sidebar-text-color: "#8E99A8"
+  sidebar-selected-text-color: "#C0CDD8"
+  sidebar-selected-background-color: "rgba(192,205,216,0.1)"
+  sidebar-icon-color: "#8E99A8"
+  sidebar-selected-icon-color: "#C0CDD8"
 
-  # ── Cartes semi-transparentes ──────────────────
-  ha-card-background: "rgba(21, 32, 48, 0.75)"
-  paper-card-background-color: "rgba(21, 32, 48, 0.75)"
-  paper-listbox-background-color: "#1C2E40"
-  ha-card-border-color: "rgba(56,189,248,0.08)"
-  ha-card-border-width: "0px"
+  # ── Cartes ─────────────────────────────────────
+  ha-card-background: "#151F30"
+  ha-card-border-color: "rgba(192,205,216,0.12)"
+  ha-card-border-width: "1px"
   ha-card-border-radius: "18px"
-  ha-card-box-shadow: "0px 0px 3px 0px #060f18"
+  ha-card-box-shadow: "0px 0px 3px 0px #05080f"
 
   # ── Séparateurs ────────────────────────────────
-  divider-color: "rgba(56,189,248,0.1)"
+  divider-color: "rgba(192,205,216,0.1)"
 
   # ── États système ──────────────────────────────
   error-color: "#F87171"
   warning-color: "#FBBF24"
   success-color: "#34D399"
-  info-color: "#38BDF8"
+  info-color: "#A8B8C8"
 
-  # ── Icônes OFF / ON ───────
+  # ── Icônes OFF / ON  ─────
   state-icon-color: var(--disabled-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
@@ -89,10 +82,11 @@ Nuit Méditerranéenne Halo:
   paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
 
   # ── Switchs ────────────────────────────────────
-  switch-checked-color: var(--paper-toggle-button-checked-button-color)
-  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
-  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
-  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-checked-color: var(--primary-color)
+  switch-checked-track-color: "rgba(192,205,216,0.3)"
+  switch-unchecked-color: var(--primary-background-color)
+  switch-unchecked-button-color: var(--disabled-color)
+  switch-unchecked-track-color: var(--primary-background-color)
 
   # ── Sliders ────────────────────────────────────
   slider-color: var(--primary-color)
@@ -126,17 +120,8 @@ Nuit Méditerranéenne Halo:
   label-badge-red: "#F87171"
   label-badge-blue: var(--primary-color)
 
-  # ── HACS ───────────────────────────────────────
-  hacs-badge-color: var(--primary-color)
-  hacs-accent-color: var(--light-primary-color)
-  hacs-chip-color: var(--accent-color)
-  hacs-error-color: var(--error-color)
-  hacs-warning-color: var(--warning-color)
-  hacs-update-color: var(--success-color)
-  hacs-new-color: var(--info-color)
-
   # ── Mode sombre forcé ──────────────────────────
   modes:
     dark:
-      primary-background-color: "#1C2E40"
-      card-background-color: "rgba(21, 32, 48, 0.75)"
+      primary-background-color: "#0B1120"
+      card-background-color: "#151F30"

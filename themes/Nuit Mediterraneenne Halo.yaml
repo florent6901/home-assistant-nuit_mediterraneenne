@@ -1,16 +1,20 @@
 # ═══════════════════════════════════════════════════
 #  Nuit Méditerranéenne — Thème Home Assistant
-#  Fichier à placer dans : config/themes/nuit_mediterraneenne
+#  Fichier à placer dans : config/themes/nuit_mediterraneenne_halo
+#  Background à placer dans : config/www/nuit_mediterraneenne_halo
 # ═══════════════════════════════════════════════════
 
-Nuit Méditerranéenne:
+Nuit Mediterraneenne Halo:
 
-  # ── Fonds ──────────────────────────────────────
-  primary-background-color: "#0D1B2A"
-  secondary-background-color: "#1A2A3A"
-  card-background-color: "#1A2A3A"
-  lovelace-background: "#0D1B2A"
-  background-color: "#0D1B2A"
+  # ── Fond ───────────────────────────────────────
+  background-image: "center / cover no-repeat url('https://github.com/florent6901/home-assistant-nuit_mediterraneenne/blob/main/themes/nuit_mediterraneenne_halo_background.png') fixed"
+  lovelace-background: var(--background-image)
+
+  # ── Fonds fallback ─────────────────────────────
+  primary-background-color: "#1C2E40"
+  secondary-background-color: "#243649"
+  card-background-color: "#1E3045"
+  background-color: "#1C2E40"
 
   # ── Textes ─────────────────────────────────────
   primary-text-color: "#F0F4F8"
@@ -24,27 +28,30 @@ Nuit Méditerranéenne:
   dark-primary-color: "#0EA5E9"
   light-primary-color: "#7DD3FC"
 
-  # ── Couleur clé OFF (utilisée comme base icônes)
+  # ── Couleur clé OFF ────────────────────────────
   disabled-color: "#E8EDF2"
 
   # ── Barres de navigation & en-têtes ────────────
-  app-header-background-color: "#0D1B2A"
+  app-header-background-color: "#152030"
   app-header-text-color: "#F0F4F8"
   app-header-icon-color: "#E8EDF2"
+  app-header-selection-bar-color: "#38BDF8"
   header-height: 56px
 
   # ── Sidebar ────────────────────────────────────
-  sidebar-background-color: "#0D1B2A"
+  sidebar-background-color: "#152030"
   sidebar-text-color: "#94A3B8"
   sidebar-selected-text-color: "#38BDF8"
-  sidebar-selected-background-color: "rgba(56,189,248,0.1)"
+  sidebar-selected-background-color: "#1E3550"
   sidebar-icon-color: "#94A3B8"
   sidebar-selected-icon-color: "#38BDF8"
 
-  # ── Cartes ─────────────────────────────────────
-  ha-card-background: "#1A2A3A"
+  # ── Cartes semi-transparentes ──────────────────
+  ha-card-background: "rgba(21, 32, 48, 0.75)"
+  paper-card-background-color: "rgba(21, 32, 48, 0.75)"
+  paper-listbox-background-color: "#1C2E40"
   ha-card-border-color: "rgba(56,189,248,0.08)"
-  ha-card-border-width: "1px"
+  ha-card-border-width: "0px"
   ha-card-border-radius: "18px"
   ha-card-box-shadow: "0px 0px 3px 0px #060f18"
 
@@ -62,7 +69,7 @@ Nuit Méditerranéenne:
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
 
-  # Fix pour HA 2023.01.25 et supérieur
+  # Fix HA 2023.01.25+
   state-cover-open-color: var(--primary-color)
   state-cover-opening-color: var(--primary-color)
   state-cover-closing-color: var(--primary-color)
@@ -71,7 +78,7 @@ Nuit Méditerranéenne:
   state-remote-on-color: var(--primary-color)
   state-switch-on-color: var(--primary-color)
 
-  # ── Paper item icons (listes entities) ─────────
+  # ── Paper item icons ───────────────────────────
   paper-item-icon-color: var(--disabled-color)
   paper-item-icon-active-color: var(--primary-color)
 
@@ -82,11 +89,10 @@ Nuit Méditerranéenne:
   paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
 
   # ── Switchs ────────────────────────────────────
-  switch-checked-color: var(--primary-color)
-  switch-checked-track-color: "rgba(56,189,248,0.3)"
-  switch-unchecked-color: var(--primary-background-color)
-  switch-unchecked-button-color: var(--disabled-color)
-  switch-unchecked-track-color: var(--primary-background-color)
+  switch-checked-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
 
   # ── Sliders ────────────────────────────────────
   slider-color: var(--primary-color)
@@ -120,8 +126,17 @@ Nuit Méditerranéenne:
   label-badge-red: "#F87171"
   label-badge-blue: var(--primary-color)
 
+  # ── HACS ───────────────────────────────────────
+  hacs-badge-color: var(--primary-color)
+  hacs-accent-color: var(--light-primary-color)
+  hacs-chip-color: var(--accent-color)
+  hacs-error-color: var(--error-color)
+  hacs-warning-color: var(--warning-color)
+  hacs-update-color: var(--success-color)
+  hacs-new-color: var(--info-color)
+
   # ── Mode sombre forcé ──────────────────────────
   modes:
     dark:
-      primary-background-color: "#0D1B2A"
-      card-background-color: "#1A2A3A"
+      primary-background-color: "#1C2E40"
+      card-background-color: "rgba(21, 32, 48, 0.75)"
