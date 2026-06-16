@@ -7,7 +7,7 @@
 Nuit Mediterraneenne Halo:
 
   # ── Fond ───────────────────────────────────────
-  background-image: "center / cover no-repeat url('https://github.com/florent6901/home-assistant-nuit_mediterraneenne/blob/main/themes/nuit_mediterraneenne_halo_background.png') fixed"
+  background-image: "center / cover no-repeat url('/local/Nuit Mediterraneenne/nuit_mediterraneenne_halo_background.png') fixed"
   lovelace-background: var(--background-image)
 
   # ── Fonds fallback ─────────────────────────────
