@@ -11,23 +11,19 @@
 
 - **Nuit Méditerranéenne**
 
-![Apercu](<img width="1018" height="895" alt="preview" src="https://github.com/user-attachments/assets/cb60fe8d-43b3-40a8-b0b9-1754af1bbba9" />)
-
+<img width="1018" height="895" alt="preview" src="https://github.com/user-attachments/assets/ceb99be8-20fc-4ad1-a45f-f3e7b392b291" />
 
 - **Nuit Méditerranéenne Dark**
 
-![Apercu_Dark](<img width="895" height="893" alt="preview_dark" src="https://github.com/user-attachments/assets/addc4973-02f0-4359-aed1-47bef7a78b8a" />
-)
+<img width="895" height="893" alt="preview_dark" src="https://github.com/user-attachments/assets/18fbcae8-6073-465b-b5f4-5ac4165fd673" />
 
 - **Nuit Méditerranéenne Halo**
 
-![Apercu_Halo](<img width="901" height="894" alt="preview_halo" src="https://github.com/user-attachments/assets/79498c86-ef4b-4203-9b3d-afa48f28668b" />
-)
+<img width="901" height="894" alt="preview_halo" src="https://github.com/user-attachments/assets/93fc550d-cb83-48de-b5e8-f428fa19f8bc" />
 
 - **Nuit Méditerranéenne Sylver**
 
-![Apercu_Sylver](<img width="900" height="891" alt="preview_sylver" src="https://github.com/user-attachments/assets/725abc0f-cd65-4b02-974e-f7b1bdbcb3a1" />
-)
+<img width="900" height="891" alt="preview_sylver" src="https://github.com/user-attachments/assets/b8b328e0-ca15-4aaf-9e31-be36f6b65edc" />
 
 ---
 ## 📦 Installation via HACS
@@ -69,6 +65,7 @@ nuit-mediterraneenne/
 │   └── nuit_mediterraneenne_dark.yaml
 ├── hacs.json
 ├── README.md
+├── LICENSE
 ```
 
 ---
