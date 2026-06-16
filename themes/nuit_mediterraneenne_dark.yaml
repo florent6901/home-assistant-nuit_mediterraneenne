@@ -1,0 +1,127 @@
+# ═══════════════════════════════════════════════════
+#  Nuit Méditerranéenne Dark — Thème Home Assistant
+#  Fichier à placer dans : config/themes/nuit_mediterraneenne_dark
+# ═══════════════════════════════════════════════════
+
+Nuit Méditerranéenne Dark:
+
+  # ── Fonds ──────────────────────────────────────
+  primary-background-color: "#0B1120"
+  secondary-background-color: "#151F30"
+  card-background-color: "#151F30"
+  lovelace-background: "#0B1120"
+  background-color: "#0B1120"
+
+  # ── Textes ─────────────────────────────────────
+  primary-text-color: "#E8ECF0"
+  secondary-text-color: "#8E99A8"
+  disabled-text-color: "#4A5568"
+  text-primary-color: "#E8ECF0"
+
+  # ── Couleurs principales  ───────
+  primary-color: "#4A7FA5"
+  accent-color: "#C0CDD8"
+  dark-primary-color: "#7A8FA0"
+  light-primary-color: "#D8E2EA"
+
+  # ── Couleur clé OFF ────────────────────────────
+  disabled-color: "#E8ECF0"
+
+  # ── Barres de navigation & en-têtes ────────────
+  app-header-background-color: "#0B1120"
+  app-header-text-color: "#E8ECF0"
+  app-header-icon-color: "#E8ECF0"
+  header-height: 56px
+
+  # ── Sidebar ────────────────────────────────────
+  sidebar-background-color: "#0B1120"
+  sidebar-text-color: "#8E99A8"
+  sidebar-selected-text-color: "#C0CDD8"
+  sidebar-selected-background-color: "rgba(192,205,216,0.1)"
+  sidebar-icon-color: "#8E99A8"
+  sidebar-selected-icon-color: "#C0CDD8"
+
+  # ── Cartes ─────────────────────────────────────
+  ha-card-background: "#151F30"
+  ha-card-border-color: "rgba(192,205,216,0.12)"
+  ha-card-border-width: "1px"
+  ha-card-border-radius: "18px"
+  ha-card-box-shadow: "0px 0px 3px 0px #05080f"
+
+  # ── Séparateurs ────────────────────────────────
+  divider-color: "rgba(192,205,216,0.1)"
+
+  # ── États système ──────────────────────────────
+  error-color: "#F87171"
+  warning-color: "#FBBF24"
+  success-color: "#34D399"
+  info-color: "#A8B8C8"
+
+  # ── Icônes OFF / ON  ─────
+  state-icon-color: var(--disabled-color)
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--primary-background-color)
+
+  # Fix HA 2023.01.25+
+  state-cover-open-color: var(--primary-color)
+  state-cover-opening-color: var(--primary-color)
+  state-cover-closing-color: var(--primary-color)
+  state-light-color: var(--primary-color)
+  state-light-on-color: var(--primary-color)
+  state-remote-on-color: var(--primary-color)
+  state-switch-on-color: var(--primary-color)
+
+  # ── Paper item icons ───────────────────────────
+  paper-item-icon-color: var(--disabled-color)
+  paper-item-icon-active-color: var(--primary-color)
+
+  # ── Toggle buttons ─────────────────────────────
+  paper-toggle-button-checked-button-color: var(--primary-color)
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--disabled-color)
+  paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
+
+  # ── Switchs ────────────────────────────────────
+  switch-checked-color: var(--primary-color)
+  switch-checked-track-color: "rgba(192,205,216,0.3)"
+  switch-unchecked-color: var(--primary-background-color)
+  switch-unchecked-button-color: var(--disabled-color)
+  switch-unchecked-track-color: var(--primary-background-color)
+
+  # ── Sliders ────────────────────────────────────
+  slider-color: var(--primary-color)
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--primary-color)
+  paper-slider-pin-color: var(--primary-color)
+  paper-slider-active-color: var(--primary-color)
+  paper-slider-container-color: var(--disabled-color)
+
+  # ── Inputs ─────────────────────────────────────
+  input-fill-color: var(--primary-background-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--primary-background-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: var(--primary-background-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-hover-line-color: var(--primary-color)
+  mdc-text-field-fill-color: var(--primary-background-color)
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-label-ink-color: var(--primary-text-color)
+
+  # ── Tables ─────────────────────────────────────
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+
+  # ── Labels / badges ────────────────────────────
+  label-badge-background-color: var(--accent-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: "#F87171"
+  label-badge-blue: var(--primary-color)
+
+  # ── Mode sombre forcé ──────────────────────────
+  modes:
+    dark:
+      primary-background-color: "#0B1120"
+      card-background-color: "#151F30"
