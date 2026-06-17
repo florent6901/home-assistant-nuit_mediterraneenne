@@ -1,6 +1,6 @@
 # 🌊 Nuit Méditerranéenne
 
-> Thème bleu sombre pour [Home Assistant](https://www.home-assistant.io/)
+> Thème pour [Home Assistant](https://www.home-assistant.io/)
 
 [![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/florent6901/home-assistant-nuit_mediterraneenne)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom%20Repository-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
@@ -21,7 +21,7 @@
 
 <img width="901" height="894" alt="preview_halo" src="https://github.com/user-attachments/assets/93fc550d-cb83-48de-b5e8-f428fa19f8bc" />
 
-- **Nuit Méditerranéenne Sylver**
+- **Nuit Méditerranéenne Silver**
 
 <img width="900" height="891" alt="preview_sylver" src="https://github.com/user-attachments/assets/b8b328e0-ca15-4aaf-9e31-be36f6b65edc" />
 
@@ -31,7 +31,7 @@
 > 💡 Actuellement disponible en **dépôt personnalisé**. > Soumission au store officiel HACS en cours.
 
 1. Ouvrir **HACS** dans Home Assistant
-2. Aller dans **Thèmes** → menu ⋮ → **Dépôts personnalisés**
+2. Aller dans → **Menu → **Dépôts personnalisés**
 3. Coller l'URL de ce dépôt et sélectionner la catégorie **Thème**
 4. Cliquer sur **Ajouter**, puis installer **Nuit Méditerranéenne**
 5. Les **4 variantes** sont disponibles dans **Profil → Thème**
@@ -39,9 +39,8 @@
 ---
 ## 🔧 Installation manuelle
 
-1. Copier le dossier `themes/` dans le dossier `config/themes/`
-2. Copier le dossier `www/` dans le dossier `config/www/`
-3. Ajouter la ligne dans le fichier `configuration.yaml` :
+1. Copier le contenu du dossier `themes/` dans le dossier `config/themes/`
+2. Ajouter la ligne dans le fichier `configuration.yaml` :
 
 ```yaml
 frontend:
@@ -69,14 +68,7 @@ nuit-mediterraneenne/
 ```
 
 ---
-## 📋 Changelog
-
-### v1.0.0
-
-- Version initiale — 4 variantes incluses
-- Compatibilité Home Assistant 2026.02+
-
----
 ## 🤝 Contribution
 
 Si vous avez des suggestions d'amélioration ou des bugs à signaler, n'hésitez pas.
+Merci pour votre soutien.
