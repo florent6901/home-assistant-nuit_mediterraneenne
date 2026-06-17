@@ -60,7 +60,7 @@ nuit-mediterraneenne/
 │   └── Nuit Mediterraneenne.yaml
 │   └── Nuit Mediterraneenne Silver.yaml
 │   └── Nuit Mediterraneenne Halo.yaml
-│   └── Nuit Mediterraneenne Background.png
+│   └── nuit_mediterraneenne_background.png
 │   └── Nuit Mediterraneenne Dark.yaml
 ├── hacs.json
 ├── README.md
