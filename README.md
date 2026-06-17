@@ -71,4 +71,5 @@ nuit-mediterraneenne/
 ## 🤝 Contribution
 
 Si vous avez des suggestions d'amélioration ou des bugs à signaler, n'hésitez pas.
+
 Merci pour votre soutien.
