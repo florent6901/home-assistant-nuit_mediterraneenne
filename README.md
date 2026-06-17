@@ -39,7 +39,7 @@
 ---
 ## 🔧 Installation manuelle
 
-1. Copier le contenu du dossier `themes/` dans le dossier `config/themes/`
+1. Copier le contenu du dossier `themes/` dans le dossier `config/themes/nuit-mediterraneenne/`
 2. Ajouter la ligne dans le fichier `configuration.yaml` :
 
 ```yaml
@@ -57,11 +57,11 @@ frontend:
 ```
 nuit-mediterraneenne/
 ├── themes/
-│   └── nuit_mediterraneenne.yaml
-│   └── nuit_mediterraneenne_silver.yaml
-│   └── nuit_mediterraneenne_halo.yaml
-│   └── nuit_mediterraneenne_background.png
-│   └── nuit_mediterraneenne_dark.yaml
+│   └── Nuit Mediterraneenne.yaml
+│   └── Nuit Mediterraneenne Silver.yaml
+│   └── Nuit Mediterraneenne Halo.yaml
+│   └── Nuit Mediterraneenne Background.png
+│   └── Nuit Mediterraneenne Dark.yaml
 ├── hacs.json
 ├── README.md
 ├── LICENSE
