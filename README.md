@@ -26,26 +26,16 @@
 
 ---
 
-## 📦 Installation via HACS
-
-> 💡 Currently available as a **custom repository**.  
-> Submission to the official HACS store is in progress.
-
-1. Open **HACS** in Home Assistant
-2. Go to → **Menu → Custom repositories**
-3. Paste the URL of this repository and select the **Theme** category
-4. Click **Add**, then install **Mediterranean Night**
-5. All **4 variants** are available under **Profile → Theme**
-
----
-
 ## 📦 HACS installation
+
 1. Install [HACS](https://hacs.xyz/). (If you do not have it yet)
 2. Go into the Community Store (HACS)
 3. Search for Nuit Mediterraneenne
 4. Navigate to Nuit Mediterraneenne theme
 5. Press Install
 6. Restart your Home Assistant
+
+---
 
 ## 🔧 Manual installation
 
