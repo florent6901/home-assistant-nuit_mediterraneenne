@@ -2,7 +2,7 @@
 
 > Theme for [Home Assistant](https://www.home-assistant.io/)
 
-[![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/florent6901/home-assistant-nuit_mediterraneenne) [![hacs_badge](https://img.shields.io/badge/HACS-Custom%20Repository-orange.svg?style=for-the-badge)](https://github.com/hacs/integration) 
+[![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/florent6901/home-assistant-nuit_mediterraneenne) [![hacs_badge](https://img.shields.io/badge/HACS-Custom%20Repository-orange.svg?style=for-the-badge)](https://github.com/hacs/integration) [![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/default)
 
 ---
 
@@ -38,6 +38,14 @@
 5. All **4 variants** are available under **Profile → Theme**
 
 ---
+
+## 📦 HACS installation
+1. Install [HACS](https://hacs.xyz/). (If you do not have it yet)
+2. Go into the Community Store (HACS)
+3. Search for Nuit Mediterraneenne
+4. Navigate to Nuit Mediterraneenne theme
+5. Press Install
+6. Restart your Home Assistant
 
 ## 🔧 Manual installation
 
