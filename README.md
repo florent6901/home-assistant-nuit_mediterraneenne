@@ -2,7 +2,7 @@
 
 > Theme for [Home Assistant](https://www.home-assistant.io/)
 
-[![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/florent6901/home-assistant-nuit_mediterraneenne) [![hacs_badge](https://img.shields.io/badge/HACS-Custom%20Repository-orange.svg?style=for-the-badge)](https://github.com/hacs/integration) [![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/default)
+[![](https://img.shields.io/badge/My-Configuration-blue?style=for-the-badge)](https://github.com/florent6901/home-assistant-nuit_mediterraneenne) [![HACS Default](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/default)
 
 ---
 
